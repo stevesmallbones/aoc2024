@@ -32,10 +32,10 @@ const part1 = (input) => {
         total += Math.abs(leftArray[i] - rightArray[i]);
     }
 
-    console.log(total);
+    console.log("Part 1 result: " + total);
 }
 
-part1("Part 1 result: " + cleanInput);
+part1(cleanInput);
 
 // Part 2
 // multiply the left number by the number of times it appears in the rightArray
@@ -62,7 +62,10 @@ const part2 = (input) => {
         total += Math.abs(leftArray[i] * count);
     }
 
-    console.log(total);
+    console.log("Part 2 result: " + total);
 }
 
-part2("Part 2 result: " + cleanInput);
+part2(cleanInput);
+
+// Part 1 result: 1722302
+// Part 2 result: 20373490
